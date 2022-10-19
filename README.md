@@ -1,11 +1,16 @@
-# grpc-sample-api
+# gRPC Sample API
+
+## Create proto
+```bash
+$ sh generate_code.sh
+```
 
 ## Run envoy
-image build
+Docker image build
 ```bash
 $ sudo docker build -t envoy .
 ```
-run container
+Run container
 ```bash
 $ docker run -it -p 8080:8080 envoy
 ```
