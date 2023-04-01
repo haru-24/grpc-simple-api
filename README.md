@@ -1,4 +1,4 @@
-# gRPC Sample API
+# gRPC Simple API
 
 ## Create proto
 ```bash
